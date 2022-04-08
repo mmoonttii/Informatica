@@ -1,0 +1,23 @@
+mkdir Esame20S
+cd Esame20S
+mkdir uno due tre
+touch file1 file2
+ls -al > file1
+cp file1 uno/file1
+mv file2 due/file2
+ls -al > due/file2
+cd tre
+mkdir prima seconda
+cat ../uno/file1 ../due/file2 > catena
+man mkdir > catena
+
+touch cerca.h
+#"Utilizzo nano per editare il file"
+#	cp catena ../due/catena
+#	grep -n mkdir catena > righemkdir
+	
+	
+./cerca.h
+chmod a=r catena
+cd ..
+history > comandi

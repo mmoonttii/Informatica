@@ -1,0 +1,17 @@
+Esercizio di  python:
+Si scriva il codice di un programma che chieda all'utente di inserire una sequenza di coppie ordinate (numero intero, parola). 
+Ciascuna coppia va memorizzata in una tupla e le varie tuple in una lista,
+come in esempio [(1,"pino"),(-3,"treno"), (5, "giallo"), ....]
+Occorre verificare ogni volta l'inserimento del numero intero. 
+Se l'utente sbaglia il programmadeve chiedere di reinserire.
+L'inserimento ha termine se sono state inserite almeno 5 coppie e quando:
+
+- o l'utente tenta di inserire un numero gia' presente, allora il nuovo inserimento va scartato
+(se non si hanno gia' almeno 5 coppie il programma chiede di reinserire)
+- oppure l'utente tenta di inserire una parola gia' presente, allora il nuovo inserimento va scartato
+(se non si hanno gia' almeno 5 coppie il programma chiede di reinserire)
+- oppure si raggiunge il limite massimo di 10 coppie
+
+Il programma deve poi avere una funzione che accetta la lista in ingresso e restituisce
+un dizionario in cui le chiavi sono le parole delle coppie e i valori associati sono
+dati dal valore massimo tra il numero della tupla corrispondente e la lunghezza della parola.

@@ -1,0 +1,2 @@
+/*Scrivi un programma che calcoli tramite una funzione i termini della
+ successione di fibonacci.*/

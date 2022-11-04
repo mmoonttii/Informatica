@@ -8,17 +8,19 @@ int main(){
 	int w[10];
 	
 	for(int i=0; i<5; i++){
-		printf("v1 pos %d", i);
+		printf("\nv1 pos %d ", i);
 		scanf("%d", &v1[i]);
+		printf("\nv2 pos %d ", i);
+		scanf("%d", &v2[i]);
 	}
 	
 	for(int j=0; j<5; j++){
-		printf("v1 pos %d", j);
-		scanf("%d", &v1[j]);
+		w[2*j]=v1[j];
+		w[2*j+1]=v2[j];
 	}
-	
-	for(int k=0; k<5; k++){
-		
+
+	for(int k=0; k<10; k++){
+		printf("%d", w[k]);
 	}
 	return 0;
 }

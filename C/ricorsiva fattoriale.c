@@ -14,6 +14,6 @@ int main(){
 	int num;
 	printf("Inserire num di cui calcolare il fattoriale: ");
 	scanf("%d", &num);
-	printf("\nIl fattoriale di %d è %d ", num, fact(num)); 
+	printf("\nIl fattoriale di %d e' %d ", num, fact(num)); 
 	return 0;
 }

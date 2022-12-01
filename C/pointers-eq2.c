@@ -39,14 +39,14 @@ void eqz (double a, b, c, *x1, *x2){
             }
     }else{
         *x1 = -b + sqrt(delta);
-        *x2 = x1;
+        *x2 = *x1;
     }
 
 }
 
 int main(){
     double a,b,c;
-    double x1,x2;
+    double sol1, sol2;
 
     printf("Se ax^2 + bx + c=0 e' l'eq. data, inserisci a: ");
     scanf("%lf", &a);
@@ -56,7 +56,7 @@ int main(){
     scanf("%lf", &c);
     
     double x1,x2;
-    eqz(a,b,c, &x1, &x2);
+    eqz(a,b,c, &sol1, &sol2);
     printf("\nx1: %lf", x1);
     printf("\nx2: %lf", x2);
     return 0;
